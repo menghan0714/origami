@@ -4,10 +4,12 @@ import About from './components/About';
 
 function App() {
   return (
-    <Routes>
+    <main className="container-fluid">
+     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
-    </Routes>
+     </Routes>
+    </main>
   );
 }
 
